@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.9/tailwind.min.css" integrity="sha512-SvJR34InARUfJb279ipE/gjQqX11MDKaly9MNb0vevuWQJmZ23UH7F/65ScEsvLI+myKGbdfA1En82wVSCHQ8A==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Frontend Mentor | 3-column preview card component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+
+    </style>
+</head>
+
+<body class=" md:mr-56 md:mt-20 md:ml-56 md:mb-2">
+
+    <div class="md:flex justify-center flex-row items-center  grid grid-cols-1">
+
+        <div class="grid grid-cols-1 md:gap-9 gap-4 md:rounded-l-2xl  pr-4 pt-32 pl-4 pb-4 p-2" id="div0">
+            <div>
+                <img src="./images/icon-sedans.svg" alt="">
+            </div>
+            <div class="text-5xl uppercase" id="title">Sedans</div>
+            <div class="text-xl" id="subtext">
+                Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city or on your next road trip.
+            </div>
+
+            <button id="subtext2" class="bg-white h-full w-2/3 p-2 border-2 border-white rounded-3xl hover:bg-transparent hover:text-white text-yellow-500"><span>learn more</span> </button>
+
+
+        </div>
+
+        <div class="relative grid grid-cols-1 gap-9 pr-4 pt-32  pl-4 pb-4" id="div1">
+            <div>
+                <img class="" src="./images/icon-suvs.svg" alt="">
+            </div>
+            <div class="text-5xl uppercase" id="title">SUVs</div>
+            <p class="text-xl" id="subtext">
+                Take an SUV for its spacious interior, power, and versatility. Perfect for your next family vacation and off-road adventures.
+            </p>
+            <button id="subtext2" class="bg-white h-full w-2/3 p-2 border-2 border-white rounded-3xl text-green-600 hover:bg-transparent hover:text-white text-yellow-500">learn more </button>
+        </div>
+
+        <div class="grid grid-cols-1 gap-9 md:rounded-r-2xl pr-4 pt-32 pl-4 pb-4" id="div2">
+            <div>
+                <img src="./images/icon-luxury.svg" alt="">
+            </div>
+            <div class="text-5xl uppercase" id="title">Luxury</div>
+            <div class="text-xl" id="subtext">
+                Cruise in the best car brands without the bloated prices. Enjoy the enhanced comfort of a luxury rental and arrive in style.
+            </div>
+
+            <button id="subtext2" class="bg-white h-full w-2/3 p-2 border-2 border-white rounded-3xl text-green-800 hover:bg-transparent hover:text-white text-yellow-500"><span  class="">learn more</span> </button>
+
+        </div>
+    </div>
+    <div class="attribution" id=" subtext2">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge " target="_blank ">Frontend Mentor</a>. Coded by <a href="# ">Tushar Vyas</a>.
+    </div>
+
+</body>
+
+</html>

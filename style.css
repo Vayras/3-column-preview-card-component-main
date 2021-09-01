@@ -1,0 +1,51 @@
+.attribution {
+    font-size: 1.1rem;
+    text-align: center;
+    font-weight: 500;
+}
+
+html {
+    font-size: 15px;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+#div0 {
+    background-color: hsl(31, 77%, 52%);
+}
+
+#color1 {
+    color: hsl(31, 77%, 52%);
+}
+
+#div1 {
+    background-color: hsl(184, 100%, 22%);
+}
+
+#color2 {
+    color: hsl(184, 100%, 22%);
+}
+
+#div2 {
+    background-color: hsl(179, 100%, 13%);
+}
+
+#color3 {
+    color: hsl(179, 100%, 13%);
+}
+
+#title {
+    font-family: 'Big Shoulders Display', cursive;
+    color: hsl(0, 0%, 95%)
+}
+
+#subtext {
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+#subtext2 {
+    font-family: 'Lexend Deca', sans-serif;
+}
